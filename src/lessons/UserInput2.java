@@ -12,7 +12,7 @@ public class UserInput2 {
 		String myString1 = "";
 		String myString2 = "dog";
 
-		/*
+		
 		// get int
 		System.out.println("Enter int: ");
 		myInteger = sc.nextInt();
@@ -27,7 +27,7 @@ public class UserInput2 {
 		System.out.println("Enter String1: ");
 		myString1 = sc.next();
 		System.out.println(myString1);
-*/
+
 		// get String (whole line)
 		System.out.println("Enter String2: ");
 		myString2 = sc.nextLine();
