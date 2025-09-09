@@ -46,6 +46,9 @@ public class IfElseIf {
 			System.out.println("Level 4");
 		}
 		
+		// for memory management
+		sc.close();
+		
 	}
 
 }
