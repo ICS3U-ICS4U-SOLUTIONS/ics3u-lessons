@@ -27,7 +27,6 @@ public class RandomNumbers {
 		int n4 = 2;
 		System.out.println( (int) (Math.random() * n4) + 1);
 		
-		
 	}
 
 }
