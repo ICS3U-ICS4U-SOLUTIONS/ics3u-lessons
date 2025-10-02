@@ -6,11 +6,15 @@ public class Swap {
 
 		String cottonCanvas = "Picasso";
 		String linenCanvas = "Monet";
+		String scrapCanvas = "empty";
 
-		
-		// write any Java code
+		// You can only use assignment operator "=" to assign 
+		// a painting to another canvas.  For example,
+		// to replicate "Monet" onto cottonCanvas:
+		// 
+		// cottonCanvas = linenCanvas;
 
-		
+
 		System.out.println(cottonCanvas);
 		System.out.println(linenCanvas);
 
