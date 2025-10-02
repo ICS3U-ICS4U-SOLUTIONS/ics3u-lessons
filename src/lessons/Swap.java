@@ -14,6 +14,10 @@ public class Swap {
 		// 
 		// cottonCanvas = linenCanvas;
 
+		// ONE SOLUTION:
+		scrapCanvas = cottonCanvas;
+		cottonCanvas = linenCanvas;
+		linenCanvas = scrapCanvas;
 
 		System.out.println(cottonCanvas);
 		System.out.println(linenCanvas);
