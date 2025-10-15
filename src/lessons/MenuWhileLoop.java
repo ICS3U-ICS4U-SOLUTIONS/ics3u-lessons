@@ -13,6 +13,7 @@ public class MenuWhileLoop {
 		
 		while(menuChoice != EXIT_CHOICE)  {
 			
+			// reset menuChoice every time you go back into while loop
 			menuChoice = 0;
 			
 			// Present choices to user
