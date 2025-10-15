@@ -9,14 +9,18 @@ public class MenuWhileLoop {
 		// variables
 		Scanner sc = new Scanner(System.in);
 		int menuChoice = 0;
+		final int EXIT_CHOICE = 3;
 		
-		while(  menuChoice != 3    )  {
+		while(menuChoice != EXIT_CHOICE)  {
 			
-			// Present options to user:
+			menuChoice = 0;
+			
+			// Present choices to user
 			System.out.println("Enter 1 for \"Hello World!\"");
 			System.out.println("Enter 2 for \"fubar\"");
 			System.out.println("Enter 3 to \"Exit\"\n");
 			
+			// Get user choice
 			System.out.println("Enter menu choice: ");
 			String tempString = sc.next();
 			
@@ -27,7 +31,7 @@ public class MenuWhileLoop {
 			
 			catch (Exception e)  {
 				
-				System.out.println("Invalid entry, please try again.\n");
+				// invalid entry message will be displayed by else statement
 			}
 			
 			// menu choices
@@ -36,10 +40,21 @@ public class MenuWhileLoop {
 				System.out.println("Hello World!\n");
 			}
 			
-			else if (menuChoice == 3)  {
+			else if (menuChoice == 2)  {
 				
 				System.out.println("fubar\n");
 			}
+			
+			else if (menuChoice == EXIT_CHOICE)  {
+				
+				System.out.println("Exiting.");
+			}
+			
+			else  {
+				
+				System.out.println("Invalid choice.");
+			}
+			
 			
 		}
 		
