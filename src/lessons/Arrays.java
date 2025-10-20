@@ -8,9 +8,6 @@ public class Arrays {
 		// Single identifier (variable name) with indexes.
 		// INDEXES begin at 0, end at length - 1.
 		// Arrays are not dynamic, fixed in size.
-		
-		// int variable
-		int myInteger = 0;
 
 		// creating arrays
 		int[] myIntArray = new int[3];
@@ -30,8 +27,8 @@ public class Arrays {
 		System.out.println(exampleArray[1]);
 		System.out.println(exampleArray[2]);
 		
-		// exceeding size of array will generate
-		// Java Exception Error
+		// Exceeding size of array will generate
+		// Java Exception Error:
 		// System.out.println(exampleArray[3]);
 	
 		// Initialize array with values upon creation
@@ -45,10 +42,6 @@ public class Arrays {
 			
 			System.out.println(myInitializedArray[i]);
 		}
-		
-		
-		
-		
 		
 	}
 
