@@ -10,6 +10,9 @@ public class PredefinedMethodsStrings {
 		// programmers, in turn, use these commands to perform complext tasks
 		// Methods are located in a file called a class, for example String.
 		
+		// Google "oracle java String" for documentation
+		// You will be expected to know how to read this.
+		
 		// variables
 		String myString = "Hello World!";		
 		String myString2 = " fubar";
