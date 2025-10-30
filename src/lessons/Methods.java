@@ -1,17 +1,12 @@
 package lessons;
 
 public class Methods {
-
-	
 	
 	public static void main(String[] args) {
 
 		System.out.println(boatyMcBoatFace(13, 7));
-		
 		System.out.println(boatyMcBoatFace(13.2, 7.3));
-		
 		nothingReturned("Mr. Wong");
-		
 	}
 	
 	
@@ -27,6 +22,7 @@ public class Methods {
 		else
 			return b;
 	}
+	
 	
 	// DESCRIPTION - Method returns larger of two doubles.
 	// PARAMETERS - double a, double b
@@ -51,10 +47,4 @@ public class Methods {
 		System.out.println("Hello " + s);
 	}
 	
-	
-	
-	
-	
-	
-
 }
