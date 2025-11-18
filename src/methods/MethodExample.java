@@ -1,6 +1,6 @@
 package methods;
 
-public class StringMethods {
+public class MethodExample {
 
 	public static void main(String[] args) {
 
