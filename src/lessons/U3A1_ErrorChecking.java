@@ -52,6 +52,8 @@ public class U3A1_ErrorChecking {
 	public static boolean stageTwo(String s)  {
 		
 		// to be completed ...
+		
+		return false;
 	}
 
 }
