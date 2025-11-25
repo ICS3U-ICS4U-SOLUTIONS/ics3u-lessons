@@ -1,12 +1,11 @@
 package lessons;
+import methods.MyMethods;
 
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JButton;
 import javax.swing.JTextField;
-
-import sandbox.MyMethods2;
 
 import javax.swing.JLabel;
 import java.awt.event.ActionListener;
