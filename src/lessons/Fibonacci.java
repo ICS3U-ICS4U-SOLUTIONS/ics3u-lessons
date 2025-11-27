@@ -35,7 +35,7 @@ public class Fibonacci {
 		// therefore else statement is redundant
 		
 		// Any sequence number > 2
-		for(int i=0; i<n-2; i++)  {
+		for(int i=2; i<n; i++)  {
 		
 			next = first + second;
 			first = second;
