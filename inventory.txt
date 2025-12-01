@@ -1,0 +1,15 @@
+milk
+42
+6.99
+bread
+96
+3.99
+butter
+36
+6.99
+cheese
+102
+9.99
+yogurt
+239
+2.99
