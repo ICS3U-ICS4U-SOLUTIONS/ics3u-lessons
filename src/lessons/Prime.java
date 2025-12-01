@@ -23,18 +23,15 @@ public class Prime {
 		if (n <= 1)
 			return false;
 		
-		// variables
-		boolean isPrime = true;
-		
 		// check if number is divisible by any other number except 1 and itself
 		for(int i=2; i<n/2; i++)  {
 			
 			if (n%i == 0)
 				
-				isPrime = false;
+				return false;
 		}
 		
-		return isPrime;
+		return true;
 	}
 	
 }
