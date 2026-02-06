@@ -13,6 +13,7 @@ public class MathOperators {
 		int difference = 0;
 		int product = 0;
 		double quotient = 0;
+		int modulus = 0;
 		
 		// addition
 		sum = myInteger1 + 4;
@@ -28,12 +29,13 @@ public class MathOperators {
 		
 		/*
 		 * DIVISION: please understand all the possible variations of dividing int and doubles
-		 * 
 		 */
-		
-		
 		quotient = 5.0/2.0;
 		System.out.println(quotient);
+		
+		// modulus (remainder of a division operation)
+		modulus = 11 % 2;
+		System.out.println(modulus);
 		
 	}
 
