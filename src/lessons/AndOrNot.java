@@ -58,9 +58,7 @@ public class AndOrNot {
 			
 			System.out.println("False");
 		}
-		
-		
-		
+	
 	}
 
 }
