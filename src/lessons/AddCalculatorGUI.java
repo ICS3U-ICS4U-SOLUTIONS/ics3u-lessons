@@ -16,6 +16,8 @@ public class AddCalculatorGUI {
 	private JTextField textField1;
 	private JTextField textField2;
 	private JTextField textField3;
+	private JButton clearButton;
+	private JButton exitButton;
 
 	/**
 	 * Launch the application.
@@ -77,8 +79,8 @@ public class AddCalculatorGUI {
 		lblNewLabel_2.setBounds(287, 112, 46, 14);
 		frame.getContentPane().add(lblNewLabel_2);
 		
-		JButton btnNewButton = new JButton("Add");
-		btnNewButton.addActionListener(new ActionListener() {
+		JButton addButton = new JButton("Add");
+		addButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
 				// button code start
@@ -101,7 +103,37 @@ public class AddCalculatorGUI {
 				// button code end
 			}
 		});
-		btnNewButton.setBounds(166, 179, 89, 23);
-		frame.getContentPane().add(btnNewButton);
+		addButton.setBounds(75, 179, 89, 23);
+		frame.getContentPane().add(addButton);
+		
+		clearButton = new JButton("Clear");
+		clearButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				// clear button start
+				
+				textField1.setText("");
+				textField2.setText("");
+				textField3.setText("");
+				
+				// clear button end
+			}
+		}); 
+		clearButton.setBounds(181, 179, 89, 23);
+		frame.getContentPane().add(clearButton);
+		
+		exitButton = new JButton("Exit");
+		exitButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				// exit button start
+				
+				System.exit(0);
+				
+				// exit button stop
+			}
+		});
+		exitButton.setBounds(287, 179, 89, 23);
+		frame.getContentPane().add(exitButton);
 	}
 }
