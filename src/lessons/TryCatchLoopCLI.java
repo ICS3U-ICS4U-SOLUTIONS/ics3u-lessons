@@ -22,6 +22,9 @@ public class TryCatchLoopCLI {
 				String temp = sc.nextLine();
 				myInteger = Integer.parseInt(temp);
 
+				// If the Integer.parseInt(temp) throws an exception,
+				// the Java code will exit the "try" block, into the catch
+				// "block", without executing the next line:
 				validEntry = true;
 			}
 
