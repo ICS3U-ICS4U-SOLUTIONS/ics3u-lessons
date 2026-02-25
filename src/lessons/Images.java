@@ -49,13 +49,7 @@ public class Images {
 		
 		JLabel lblNewLabel = new JLabel("New label");
 		lblNewLabel.setBounds(107, 40, 178, 103);
-		
 		lblNewLabel.setIcon(myPicture);  // load image upon launch
-		
 		frame.getContentPane().add(lblNewLabel);
-		
-		JButton btnNewButton = new JButton("New button");
-		btnNewButton.setBounds(153, 195, 89, 23);
-		frame.getContentPane().add(btnNewButton);
 	}
 }
