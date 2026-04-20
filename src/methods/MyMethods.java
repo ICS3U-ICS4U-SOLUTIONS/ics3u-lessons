@@ -2,7 +2,6 @@ package methods;
 
 public class MyMethods {
 
-	
 	/*
 	 * 	DESCRIPTION - Displays random program menu.
 	 * 	PARAMETERS - none
