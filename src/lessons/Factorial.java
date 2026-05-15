@@ -4,9 +4,10 @@ public class Factorial {
 
 	public static void main(String[] args) {
 
-		int myInteger = 16;
+		int myInteger = 3;
 		
-		System.out.println(factorial(myInteger));
+		System.out.println(factorialForLoop(myInteger));
+		System.out.println(factorialWhileLoop(myInteger));
 
 	}
 
@@ -15,7 +16,31 @@ public class Factorial {
 	 * 	PARAMETERS - int n
 	 * 	RETURN - int
 	 */
-	public static int factorial(int n)  {
+	public static int factorialWhileLoop(int n)  {
+		
+		int answer = 1;
+		
+		// error case
+		if (n < 0)
+			return -1;
+		
+		// base case(s)
+		if (n == 0 || n == 1)
+			return answer;
+
+		while(n > 1)
+			answer = answer * n--;
+		
+		return answer;	
+	}
+	
+	
+	
+	/*	DESCRIPTION - Returns factorial for n >= 0.  Returns -1 for invalid arguments.
+	 * 	PARAMETERS - int n
+	 * 	RETURN - int
+	 */
+	public static int factorialForLoop(int n)  {
 		
 		int answer = 1;
 		
