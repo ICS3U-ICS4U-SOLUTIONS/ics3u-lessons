@@ -8,9 +8,28 @@ public class Factorial {
 		
 		System.out.println(factorialForLoop(myInteger));
 		System.out.println(factorialWhileLoop(myInteger));
+		System.out.println(factorialRecursive(myInteger));
 
 	}
 
+	
+	/*	DESCRIPTION - Returns factorial for n >= 0.  Returns -1 for invalid arguments.
+	 * 	PARAMETERS - int n
+	 * 	RETURN - int
+	 */
+	public static int factorialRecursive(int n)  {
+		
+		// error case
+		if (n < 0)
+			return -1;
+		
+		// base case(s)
+		if (n == 0 || n == 1)
+			return 1;
+
+		return n * factorialRecursive(n-1);
+	}
+	
 	
 	/*	DESCRIPTION - Returns factorial for n >= 0.  Returns -1 for invalid arguments.
 	 * 	PARAMETERS - int n
