@@ -1,11 +1,8 @@
 package lessons;
 
-public class BinaryHexConversions {
+public class Encryption {
 
 	public static void main(String[] args) {
-
-		
-		
 		
 
 	}
