@@ -5,19 +5,18 @@ public class Variables {
 	public static void main(String[] args) {
 
 		// variables
-		int myInteger = 0;		// initialize variables
-		double myDouble = 13.3;	// decimal values
-		char myChar = 'x';		// any character on keyboard, use single quotes
+		int myInteger = 13;
+		double myDouble = 13.3;
+		char myChar = 'x'; 			// any character on keyboard between single quotes
 		boolean myBoolean = true;	// can be true or false
-		String myString = "fubar foo bar";	// anything between double quotes is part of String
-		
-		// CONSTANT_VARIABLES
+		String myString = "fubar * $% !!";  // anything between double quotes is part of String
+				
+		// CONSTANT VARIABLES
 		// Variables which should not change.
-		// Values can not change within program, but changeable upon declaration.
+		// Values can not change by program, only by human.
 		// Use keyword "final" to make it constant.
-		// Use all capital letters with underscore between words by convention.
+		// Use all capital letters with underscore between words for naming.
 		final double TAX_RATE = 13.0;
-
 	}
 
 }
