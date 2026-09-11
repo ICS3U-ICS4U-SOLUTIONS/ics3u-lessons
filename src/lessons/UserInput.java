@@ -11,20 +11,14 @@ public class UserInput {
 		int myInteger = 0;
 		double myDouble = 0.0;
 		
+		// sc.next() - gets user input from console, up to, but not including first space
+		// sc.nextLine() - gets user input from console, up to, but not including new line
+		// sc.nextInt() - gets non-decimal numbers from console, else crashes
+		// sc.nextDouble() - gets any number from console, changes to double, else crashes
+		
 		System.out.println("Enter double: ");
-	  
-		// takes input from console, up to, but not including spaces
-		// myString = sc.next();
-		
-		// takes input from console, up to, but not including new line
-		//myString = sc.nextLine();
-		
-		// takes integer from console, crashes if not int
-		//myInteger = sc.nextInt();
-		
-		// takes number from console, crashes if not number
 		myDouble = sc.nextDouble();
-		
+		System.out.println(myDouble);
 		
 	}
 
