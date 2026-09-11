@@ -7,13 +7,24 @@ public class UserInput {
 
 		// variables
 		Scanner sc = new Scanner(System.in);
-		String userName = "";
+		String myString = "";
+		int myInteger = 0;
+		double myDouble = 0.0;
 		
-		// prompt user for name
-		System.out.println("Enter your name: ");
+		System.out.println("Enter double: ");
+	  
+		// takes input from console, up to, but not including spaces
+		// myString = sc.next();
 		
-		userName = sc.next();
-		System.out.println("Your name is: " + userName);
+		// takes input from console, up to, but not including new line
+		//myString = sc.nextLine();
+		
+		// takes integer from console, crashes if not int
+		//myInteger = sc.nextInt();
+		
+		// takes number from console, crashes if not number
+		myDouble = sc.nextDouble();
+		
 		
 	}
 
