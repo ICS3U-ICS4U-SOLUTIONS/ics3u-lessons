@@ -4,46 +4,34 @@ public class Arrays {
 
 	public static void main(String[] args) {
 		
-		// Arrays hold multiple elements of the same type
+		// Arrays hold multiple elements of the SAME TYPE.
 		// INDEXES begin at 0 and end at length - 1
-		// Arrays are fixed in size, they can not change
-		//	in length after creation.
+		// Arrays are fixed in size, they can not change in length after creation.
 		
-		// examples
-		int[] myList = new int[3];
+		// create int array size 3
+		int[] myShelf = new int[3];
 		
-		// assigning values to array
-		myList[0] = 13;
-		myList[1] = 7;
-		myList[2] = 42;
+		// put elements in array
+		myShelf[0] = 13;
+		myShelf[1] = 7;
+		myShelf[2] = 19;
 		
-		// accessing array elements
-		System.out.println(myList[3]);
+		// determine size of array
+		System.out.println(myShelf.length);
 		
-		// determining length of array
-		System.out.println(myList.length);
+		// access individual elements in array
+		System.out.println(myShelf[2]);
 		
-		// loop through array
-		for(int i=0; i<myList.length; i++)  {
+		// loop through array, use .length to avoid
+		// "index out of bounds error"
+		for(int i=0; i<myShelf.length; i++)  {
 			
-			System.out.println(myList[i]);
+			System.out.println(myShelf[i]);
 		}
 		
-		// creating array with values
-		int[] myList2 = {2, 4, 7, 2, 8};
-		
-		// creating arrays with different types
-		String[] myList3 = new String[5];
-		double[] myList4 = new double[6];
-		boolean[] myList5 = new boolean[3];
-		
-		
-		
-		
-		
-		
-		
-		
+		// pre-populate array upon creation
+		double[] myDoubleList = {2.3, 5.3, 7.4, 8.9};
+	
 		
 	}
 
