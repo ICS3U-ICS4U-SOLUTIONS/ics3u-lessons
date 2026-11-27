@@ -1,5 +1,6 @@
 /*
- * Algorithm Design
+
+Algorithm Design
 
 1. IPO Chart
 2. Pseudo Code
@@ -38,8 +39,8 @@ Calculate number of second:
 	seconds = remainingSeconds % 60
 
 Output the number of hours, minutes and seconds to the user.
-
 */
+
 
 
 package lessons;
